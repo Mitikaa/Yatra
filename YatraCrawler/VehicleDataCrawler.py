@@ -83,14 +83,8 @@ def main():
 
 
 
-
-
-
-
-
-
-
-    tablehead = 'CarModel,EngineDisplacement,Transmission,FuelType,ImgUrl,MPG,UserEco\n'
+    tablehead = 'CarModel,ImgUrl,MPG,UserEco\n'
+    # EngineDisplacement,Transmission,FuelType,
     while len(urls) > 0:
         try:
             htmltext = ''
@@ -110,9 +104,9 @@ def main():
                 for row in rows:
                     if rowNum == 0:
                         model = row.find('td').find('a', href=True)
-                        detail = row.find('span', attrs={'class': 'config'})
+                        #detail = row.find('span', attrs={'class': 'config'})
                         if model:
-                            tablehead = tablehead + ' ' + model.text + '  ' + detail.text
+                            tablehead = tablehead + ' ' + model.text # + '  ' + detail.text
 
                     if row.find('td', attrs={'class': 'mpg-epa'}):
                         imgurl = row.find('td', attrs={'class': 'vphoto'}).find('img', attrs={'class': 'img-thumbnail img-responsive veh-photo'})
