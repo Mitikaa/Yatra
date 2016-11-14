@@ -10,16 +10,16 @@ import org.json.*;
 
 public class ApiClient {
 
-	static String myApiKey = "YourKey";
+	static String myApiKey = "AIzaSyDcyhQ0CcjBHzvoDvJlMJz96l8EvRzMN2o";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String[] myPlaces = { "Los Angeles; California", "Chicago; Illinois" };
-		// ,"Houston; Texas", "Philadelphia; Pennsylvania", "Phoenix; Arizona",
-		// "San Antonio; Texas", "New York City; New York",
-		// "San Diego; California", "Dallas; Texas", "San Jose; California",
-		// "Austin; Texas" };
-
+		String[] myPlaces = { "Los Angeles; California", "Chicago; Illinois"
+		 ,"Houston; Texas", "Philadelphia; Pennsylvania", "Phoenix; Arizona"
+		 ,"San Antonio; Texas", "New York City; New York",
+		 "San Diego; California", "Dallas; Texas", "San Jose; California",
+		 "Austin; Texas" };
+		 
 		String myPlacesCoordinatesAPI = "http://maps.google.com/maps/api/geocode/json?address=%1$s";
 		JSONObject[] myCoordinates = new JSONObject[myPlaces.length];
 
@@ -41,9 +41,12 @@ public class ApiClient {
 
 				JSONObject location = (JSONObject) ((JSONObject) ((JSONObject) results.get(0)).get("geometry"))
 						.get("location");
-				myCoordinates[i] = location.append("long_name", myPlaces[i]);
+				location.put("long_name", myPlaces[i]);
+				location.put("place_id", ((JSONObject) results.get(0)).get("place_id"));
+				myCoordinates[i] = location; 
 
 			}
+			
 			System.out.println(getNearbyData(myCoordinates));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -54,12 +57,15 @@ public class ApiClient {
 		String myIntermediateLocationAPI = "https://maps.googleapis.com/maps/api/elevation/json?path=%1$s&samples=%2$d&key=%3$s";
 		int sampleSize = 10;
 		JSONArray nearByData = new JSONArray();
+
 		for (int i = 0; i < myCoordinates.length; i++) {
 			String path = "%1$s,%2$s|%3$s,%4$s";
 			JSONObject source = myCoordinates[i];
+
 			for (int j = i + 1; j < myCoordinates.length; j++) {
 				StringBuilder jsonResults = new StringBuilder();
 				JSONObject destination = myCoordinates[j];
+
 				try {
 					URL url = new URL(String.format(myIntermediateLocationAPI, String.format(path, source.get("lat"),
 							source.get("lng"), destination.get("lat"), destination.get("lng")), sampleSize, myApiKey));
@@ -74,24 +80,28 @@ public class ApiClient {
 					JSONObject jsonObj = new JSONObject(jsonResults.toString());
 					JSONArray results = (JSONArray) jsonObj.get("results");
 
+					JSONObject tripData = new JSONObject();
+					tripData.put("Source", source);
+					tripData.put("Destination", destination);
+					JSONArray stationData = new JSONArray();;
+
 					for (int k = 0; k < results.length(); k++) {
 						JSONObject location = (JSONObject) ((JSONObject) results.get(k)).get("location");
-						JSONArray myNearbyPlaces = getNearByLocations(location);
-						JSONObject tripData = new JSONObject();
-						tripData.put("Source", source);
-						tripData.put("Destination", destination);
-						tripData.put("Stations", myNearbyPlaces);
-						
-						nearByData.put(tripData);
+						stationData.put(getNearByLocations(location));
 					}
-					return nearByData;
+					
+					//System.out.println(stationData);
+					//System.out.print(tripData);
+
+					tripData.put("Stations", stationData);
+					nearByData.put(tripData);
+					
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 		}
-		return null;
+		return nearByData;
 	}
 
 	public static JSONArray getNearByLocations(JSONObject location) {
@@ -114,16 +124,16 @@ public class ApiClient {
 			for (int i = 0; i < results.length(); i++) {
 				JSONObject result = (JSONObject) results.get(i);
 				JSONObject localAttraction = new JSONObject();
-				
+
 				if (result.has("geometry")) {
 					if (((JSONObject) result.get("geometry")).has("location")) {
 						localAttraction.put("location", ((JSONObject) result.get("geometry")).get("location"));
 					}
 				}
-				if (result.has("name")) 
+				if (result.has("name"))
 					localAttraction.put("localName", result.get("name"));
-				
-				if (result.has("id")) 
+
+				if (result.has("id"))
 					localAttraction.put("id", result.get("id"));
 
 				if (result.has("icon"))
@@ -140,7 +150,7 @@ public class ApiClient {
 
 				localAttractionArray.put(i, localAttraction);
 			}
-			
+
 			return localAttractionArray;
 		} catch (Exception e) {
 			e.printStackTrace();
