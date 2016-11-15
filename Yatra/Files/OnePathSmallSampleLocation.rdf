@@ -1,0 +1,1568 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY yatra "http://www.semanticweb.org/ontologies/2016/12/Yatra#">
+]>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:yatra="http://www.semanticweb.org/ontologies/2016/12/Yatra#">
+		<rdf:Description rdf:about="&yatra;terminal1">
+		<yatra:hasName rdf:datatype="&xsd;string">Chicago; Illinois</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8781136</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6297982</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ7cv00DwsDogRAMDACa2m4K8</yatra:hasPlaceId>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;terminal2">
+		<yatra:hasName rdf:datatype="&xsd;string">Los Angeles; California</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0522342</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2436849</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJE9on3F3HwoAR9AhGJW_fL-I</yatra:hasPlaceId>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station0">
+		<yatra:hasName rdf:datatype="&xsd;string">Los Angeles</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0522342</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2436849</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJE9on3F3HwoAR9AhGJW_fL-I</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">7f7b7d8118ae8db8ed3f541159ac928c484d12ad</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station1">
+		<yatra:hasName rdf:datatype="&xsd;string">Los Angeles City Hall</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0537126</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2428145</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ8U1fOU_GwoAR2t6y9AjKEKI</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">7f75c7158a6b7ceac9a8e54d1a28bacf6575a080</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["city_hall"|"premise"|"local_government_office"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station2">
+		<yatra:hasName rdf:datatype="&xsd;string">Kawada Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0527171</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2477057</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJk4UcFkzGwoARXX6vn9WOP1Q</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a17b93ea9f4305523e93c90998efd9bf6e93d0c8</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station3">
+		<yatra:hasName rdf:datatype="&xsd;string">Miyako Hotel Los Angeles</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0496734</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2402369</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJN4KVwkfGwoARd235b3GLiYo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">92ffe126a752d35a00f82e155d8b8edf9769a6ab</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station4">
+		<yatra:hasName rdf:datatype="&xsd;string">Metro Plaza Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0588338</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2376156</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ2YN22kTGwoARshYCMmIIuQM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">641731f7fe4d39901159452ed057b0d6e5e4a867</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station5">
+		<yatra:hasName rdf:datatype="&xsd;string">Hilton Checkers Los Angeles</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.049626</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.255</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJU9oTm7THwoARF9dZF0pdn0U</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a6002da196e36f74c4b4d3d2e50838973f9a9cfe</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"restaurant"|"food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station6">
+		<yatra:hasName rdf:datatype="&xsd;string">Stay on Main Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0442774</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2507798</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJQy-6bDXGwoARZln-R4MPoGQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">8e7a1b9dc43f5580a89669961defd25d7a67b263</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station7">
+		<yatra:hasName rdf:datatype="&xsd;string">The L.A. Hotel Downtown</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0550246</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2554539</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ8wFsf63HwoARuDYVgplSZ9o</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">1f2377c0b75bb4122fd8eb31d565b3e891aa724e</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station8">
+		<yatra:hasName rdf:datatype="&xsd;string">The Westin Bonaventure Hotel & Suites, Los Angeles</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.052784</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.255893</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ_X3CRLLHwoARRT04UFlchVE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">6a13d5b0f8e7bf65e2e914291b13824e91c9f902</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station9">
+		<yatra:hasName rdf:datatype="&xsd;string">The Los Angeles Athletic Club</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0465967</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2550311</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ-_RdD7XHwoARN0-Zc_fk4ZA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">31ca02766c4c50704857ec437055af9b02093f06</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station10">
+		<yatra:hasName rdf:datatype="&xsd;string">The Standard Downtown LA</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0501654</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2569631</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ71dGk7PHwoARHWr_QGbZIGU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">732a4100780e3d0cbc0242119ac7cd4683bd2232</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"restaurant"|"food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station11">
+		<yatra:hasName rdf:datatype="&xsd;string">Best Western Plus Dragon Gate Inn</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0631792</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.238908</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJHa52O1rGwoARer87_e2fc1M</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">21641302d12987258eda8eea2e0e259c15ea6ec9</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station12">
+		<yatra:hasName rdf:datatype="&xsd;string">Sheraton Los Angeles Downtown Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.047858</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.258374</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJmRr_HrTHwoARjigvltPYgzo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">9315b38925bc468c40f76500b94350528547c544</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station13">
+		<yatra:hasName rdf:datatype="&xsd;string">The Milner Hotel Downtown Los Angeles</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.047144</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.260768</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ55_V6bbHwoARijuc6LIE0X8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">982c028abac06d376497f4d905a2cf86aa77f265</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station14">
+		<yatra:hasName rdf:datatype="&xsd;string">The Royal Pagoda Motel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.066712</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.236335</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJZ_AkO1nGwoARNy378Aycqnw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">58721f91d742d0035aba4207de15a1c67087696d</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station15">
+		<yatra:hasName rdf:datatype="&xsd;string">Knights Inn Los Angeles Central/Conventions Center Area</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0661834</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.253828</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJy0JcEwDHwoARFYis_tnpviw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b562d69a1a24a38169c7f725cafba2127263d5a6</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station16">
+		<yatra:hasName rdf:datatype="&xsd;string">Americas Best Value Inn</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0514703</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.26468</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJkzUHorrHwoAR0k1roUPEjvM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b73c1d94b4e126a8838839de7aeae607a861ad6f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station17">
+		<yatra:hasName rdf:datatype="&xsd;string">City Center Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.051523</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2650043</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJBRsno7rHwoARfpG-chZoMxM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">7f6514173826a109a82862519df691909daa91e2</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station18">
+		<yatra:hasName rdf:datatype="&xsd;string">Hotel Figueroa</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.0455317</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.2640486</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJzcQQfbfHwoAREpay4PPzicU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">0a9302b82c33f27f2448edd68d3a18f90d473e27</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station19">
+		<yatra:hasName rdf:datatype="&xsd;string">Glendale</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">34.1425078</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-118.255075</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJqYPwyDLAwoARpibJ_p6hP-U</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">01b238406f7bd5ce1a195b0b80f227b6a8a78797</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station10">
+		<yatra:hasName rdf:datatype="&xsd;string">Barnwell</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">35.293045</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-115.2358186</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJu37cLJ4Lz4AROQvV8_auu0Y</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">2331948cd87fa75853b2e9594a4e2a2977f9f71f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station11">
+		<yatra:hasName rdf:datatype="&xsd;string">Hart Mine Airport</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">35.28332330000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-115.1924841</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJb8l717kLz4ARecb2XmQyeQ8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">06a1c78a88f8a8f4826e77b4caac9d170f55f8c1</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["airport"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/airport-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station12">
+		<yatra:hasName rdf:datatype="&xsd;string">Goldome Mine and Mill</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">35.3291488</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-115.2630615</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJQUpjCsEMz4ARMJbTxYIA4pE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a1904a32b2cf1920cc2b8587743d87bf91c0a1af</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station13">
+		<yatra:hasName rdf:datatype="&xsd;string">Vanderbilt</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">35.33056</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-115.25028</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJsaAyD-0Mz4ARtCFAs81ELSI</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">66ba4aa001d50d80bd2ac94806f9c56ad3dcce86</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station20">
+		<yatra:hasName rdf:datatype="&xsd;string">North Rim Country Store</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.413822</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.129898</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJPTFJsv_NNIcRA96K2yeSIuw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ae12170dfcc4edacb9867b4baab2d408e5d761b9</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["gas_station"|"convenience_store"|"grocery_or_supermarket"|"food"|"car_repair"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station21">
+		<yatra:hasName rdf:datatype="&xsd;string">Demotte Campground</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.4113774</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.1354448</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJc8zDyr0QM4cRB0zLLv21aeI</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">491e6c0c25829eab73abcb3e39604df4f75fa598</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["campground"|"park"|"lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/camping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station22">
+		<yatra:hasName rdf:datatype="&xsd;string">Kaibab Lodge</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.41391369999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.1336746</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJD1CMyS1kM4cR3MvMJw6aJ7M</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f30ea9e36c6b64f35a39b9b941bfd4470f587618</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station23">
+		<yatra:hasName rdf:datatype="&xsd;string">Mather Point</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.45059500000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.0363664</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ9zJtDUh7M4cRsyYFdHHwOlY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">bd72c84eddac403a03c76b736714046f111ab5e5</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["park"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station24">
+		<yatra:hasName rdf:datatype="&xsd;string">Dog Canyon Apron</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.42376590000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.0955181</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ_Q54H1ZkM4cRgy99-l-Qlqc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">13126ba0565b92d94f4f2e1a0d1ff4f144bb7e5b</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["park"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station25">
+		<yatra:hasName rdf:datatype="&xsd;string">Forever Resorts Grand Cyn Ldg</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.4723728</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.1252726</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJVRPa9eljM4cRVTtkndWiBVM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f1a2ed5063e838ec036dbca71eb4cf499841b0a5</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station26">
+		<yatra:hasName rdf:datatype="&xsd;string">Crystal Spring Apron</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">36.3793536</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-112.098326</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJFzODCoFlM4cR1z667Ye6pCg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">e68310d515df26f274cdbdaf9b718d9f9679b5af</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["park"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station30">
+		<yatra:hasName rdf:datatype="&xsd;string">Pleasant View</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5883253</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7654801</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJk0Iw4IgKOYcR3fc2r2DZJdE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">c2f969961bf9b0c8075573718ac206351ad706cb</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station31">
+		<yatra:hasName rdf:datatype="&xsd;string">US Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5893851</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7652642</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJD1rRRKsJOYcRYQhUXloKYeE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">5444d639641781272ebdf38e2d39825a6449dde8</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station32">
+		<yatra:hasName rdf:datatype="&xsd;string">US Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5298963</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7192974</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJtzWtvo4LOYcRMXt1W2LNYYM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">c12bd751096c8687c975f7882f8bb3830551f124</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station33">
+		<yatra:hasName rdf:datatype="&xsd;string">Wiley Wales Powerchutes</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.549821</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.830827</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ43TYjEenOYcRBjFTDufhwY0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">efe4fea9c33d88a8bbf68715fe92de09e5ac2ac9</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station34">
+		<yatra:hasName rdf:datatype="&xsd;string">Pleasant View Fire Department</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.588652</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.764361</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJo8GBE6sJOYcRkTl-w1xQvj0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">de5749112d8ff978ed6ea5f896699636324c1a3a</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["fire_station"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station35">
+		<yatra:hasName rdf:datatype="&xsd;string">Career Consulting Services</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5132</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7554</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ7-JLveoMOYcRaFYASBFmiIg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">90de5521db6d12683b1231fc14355e3d7e28cdd0</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station36">
+		<yatra:hasName rdf:datatype="&xsd;string">Woods Canyon Archaeological</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5008678</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.8012507</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ5YFCSYcKOYcRRJPQjvtoyaA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b7bbb3820a4cc91180e9c4e8aa5427e7fcc11cfa</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station37">
+		<yatra:hasName rdf:datatype="&xsd;string">Rico Telephone Co</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5892088</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7656151</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ5Qd8XKsJOYcRYAzOK-RNICI</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b2d0fe2752d38dfa73ad2ce227a32ad3ade5ee7c</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station38">
+		<yatra:hasName rdf:datatype="&xsd;string">SW Colorado Research Center</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.54425599999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.728393</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJKxqtZe8LOYcRH4ZeTEA2tPA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">076058b93a7b0ad3183962c304334945eeb31423</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station39">
+		<yatra:hasName rdf:datatype="&xsd;string">HEMP-INGWAY</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5733111</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7554726</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJR2oJcwsJOYcRjGZ2aVzFfCQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">6072f482ad36792fe0aed78eb71685bd7a8ef947</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station40">
+		<yatra:hasName rdf:datatype="&xsd;string">Legacy Imagery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5442559</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7283927</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJKxqtZe8LOYcR0Fl0OE6XDTk</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">27510a5e6a5190724585266e47ecf5f118b611ea</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station41">
+		<yatra:hasName rdf:datatype="&xsd;string">Video Repair Shop</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.53438999999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.722396</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJE1VUGI0LOYcRpjvAB3py6pY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">e3711fbb6caddde1dd3731ac5bbee6d6c44be82d</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station42">
+		<yatra:hasName rdf:datatype="&xsd;string">Reconnection Co</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.615785</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.821714</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJO_zPv-SnOYcRwNJzL8BvaEY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ba4ee09b3f52cefc27f36064a7fdf34b966019d9</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station43">
+		<yatra:hasName rdf:datatype="&xsd;string">Judd's Custom Cues</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.513135</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.691692</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJjXHe9YwMOYcRlsdFIhzrJrE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">965375036e1acdb47007cd6a626caf8f54b18b6e</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station44">
+		<yatra:hasName rdf:datatype="&xsd;string">Church of Christ</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5709469</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.751771</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJoyCPsqkJOYcRVu8Hn6dkzb0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">73c86dbce34dfc8d26515f5d0bf3ec80d3f31967</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["church"|"place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station45">
+		<yatra:hasName rdf:datatype="&xsd;string">Southwest Carpet & Upholstery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.501</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.776</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJPYhGveoMOYcR7Wefx6phYrU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">fad6c904e10b123ae87aaf442f65c5eca382d1d2</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["laundry"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station46">
+		<yatra:hasName rdf:datatype="&xsd;string">Herrmann Construction</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.568764</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.765096</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJBwWWz5gJOYcR0rZIjVmGuIY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">5f93a19a96748b60ff84482d53651fd2be4ebfc3</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["general_contractor"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station47">
+		<yatra:hasName rdf:datatype="&xsd;string">Diamond D Processing</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.5298862</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7376234</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJCdUBN74LOYcR211eq9XMc7w</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">0b124581b6c630543adf0348b709cde2f7fb786c</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station48">
+		<yatra:hasName rdf:datatype="&xsd;string">Emmanuel Church</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.54469270000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7371719</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJz4DcZ90LOYcR2uQ8xiIwbKg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">763171f72cf61ed73212ea79c981f6738933bf6d</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["church"|"place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station49">
+		<yatra:hasName rdf:datatype="&xsd;string">Yellow Jacket</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">37.53443499999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-108.7173212</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ5drAbYsLOYcR-mdeuuxiPn4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">3938b9b385445ea7c266504886337a56eb930ee1</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station40">
+		<yatra:hasName rdf:datatype="&xsd;string">American Adventure Expeditions</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.4854891</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.3749768</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJa0lRr_KSFIcRYuesMTtv7IY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">3bf127a7a283d299b0e4034016b588fcb9edc047</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["travel_agency"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station41">
+		<yatra:hasName rdf:datatype="&xsd;string">Five Points Campsite</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.45275269999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.4928875</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ-UT6GfntFIcRqflh20Zbcak</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">6eab5152e9348435ce22067a33056f14a42283fb</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["campground"|"park"|"lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/camping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station42">
+		<yatra:hasName rdf:datatype="&xsd;string">Front Range Aggregates LLC</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.4858458</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.3752452</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ3eRqLZOSFIcRq8ces2Q_Ia8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">dad334ac541c12d7a19a2ddc350fef7572b0ba03</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["general_contractor"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station43">
+		<yatra:hasName rdf:datatype="&xsd;string">Benedictine Fellowship of Saint Laurence</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.5217199</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.4801229</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ7wufXxLsFIcRrUwL1gllNNs</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">3b1fde6edbfab54e9503117f1698076e660a470a</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station44">
+		<yatra:hasName rdf:datatype="&xsd;string">Prospect Peak</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.4777777</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.5211111</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJvTS4ymfuFIcR5qrhLQAFhJs</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">13ca5c836d7e70e2055e959d2f63489c2f345c8e</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["airport"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/airport-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station45">
+		<yatra:hasName rdf:datatype="&xsd;string">Twelvemile School</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.53055149999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.4061044</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ03QCKE2TFIcR1TrwR-gjVas</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b5ef45211616e11a83ba2dc083df420facbd48c3</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["school"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station46">
+		<yatra:hasName rdf:datatype="&xsd;string">Black Range Minerals</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.522301</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.544627</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJtd-zAdXuFIcReFLQ1Uifp1E</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">6496a4804b4311bdf181ee2a59ff80bbdbf4d6cd</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station47">
+		<yatra:hasName rdf:datatype="&xsd;string">Martin Marietta Aggregates</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.4856661</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.3995293</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJnU03c8mSFIcRk68NYz6KMq4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">97ebc85ac406e359a2203d5e2b33909ba8b1162d</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station48">
+		<yatra:hasName rdf:datatype="&xsd;string">Tallahassee School</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.56166229999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.5416637</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJxZdCTQHpFIcRTjv5ObEJZ1M</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">edf906f13d8d5f645a55085feb307c535452a844</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["school"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station49">
+		<yatra:hasName rdf:datatype="&xsd;string">Pinnacle Rock</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.4474753</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.5227231</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJN5jVmR_uFIcRfZOacnoB_h0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">c7ffba9d3101a8d1e5bd43e83af6c075d81cd1ef</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["park"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station50">
+		<yatra:hasName rdf:datatype="&xsd;string">SMS Ranch</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.520411</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.358451</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJF2_Sv6eTFIcRDBEJWC9ok30</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">5caee7a0e0c5eb19c40ac49ea026c1e7a9df8999</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station51">
+		<yatra:hasName rdf:datatype="&xsd;string">Sheep Basin</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">38.4527401</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-105.4931688</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJxRodGPntFIcRkRimEWZoGwo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">656f448fce8746dba10f6e66d04680b4703592b4</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["campground"|"premise"|"park"|"lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station50">
+		<yatra:hasName rdf:datatype="&xsd;string">Kanorado</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.33305420000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0379595</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ2VBCzyJVC4cRqmT4Lt5ti9g</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">6e877d91b50e76c34f230d5e42dff14233cf78e1</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station51">
+		<yatra:hasName rdf:datatype="&xsd;string">US Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3351108</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0368366</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJYeonpiJVC4cRaiyy2-Fp0y8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a2cfeef550bb6b0f030409fb4a17d4df35685c39</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station52">
+		<yatra:hasName rdf:datatype="&xsd;string">Franz Club Lambs</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.4183477</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.1093961</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJKdlIMc5Vc4cRYCmiDgnCOXg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a4635b767b6c2f207db2e8b4e59c7aa3bf630aab</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station53">
+		<yatra:hasName rdf:datatype="&xsd;string">City of Kanorado</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.33508640000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0381686</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJodQ0Vz1VC4cRd0HVmD7nUUc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">9fc327f74b6fd61244afad126b1eec7560fa68d5</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station54">
+		<yatra:hasName rdf:datatype="&xsd;string">Frontier Ag Elevator</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3337649</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0349233</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJfer8jBhVC4cRpiMNFKOy4VA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a076773109a2e3b6f7f35099c0ed193ca4e8f2fe</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["gas_station"|"food"|"car_repair"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station55">
+		<yatra:hasName rdf:datatype="&xsd;string">CENEX</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.33401919999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0366074</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJEYktpiJVC4cRsCj6asQQzCE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">bd85b10aa9b144026b80d669bf38b23940dd6adc</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["gas_station"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station56">
+		<yatra:hasName rdf:datatype="&xsd;string">Wright International Airport</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.4083302</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0212925</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJAdvdCLKrdIcR4AB6brIHYtk</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">841109fa7888544271af9644fa26b0d43024a523</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["airport"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/airport-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station57">
+		<yatra:hasName rdf:datatype="&xsd;string">Franz Beefmasters</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.4037727</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.1090672</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJLawjKrFVc4cR3d1qoRbC_YY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">6540a5e0929f087cb835bdeaf38f99ea1970327c</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station58">
+		<yatra:hasName rdf:datatype="&xsd;string">Kanorado Cemetery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3427677</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0411259</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJOY0DUDpVC4cRiVX36CJjAwc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ffb4e97750033679545d88ccf5319675d81406e1</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["cemetery"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/cemetery_grave-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station59">
+		<yatra:hasName rdf:datatype="&xsd;string">Legacy Electric</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.43243210000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-101.9859094</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ2xzr_vmrdIcR0H5ocZoStCY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">2e5d3428ceecfb7a93ae6ea681a77deed816865f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["electrician"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station60">
+		<yatra:hasName rdf:datatype="&xsd;string">Witzell Farms</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.4625349</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0625852</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJDWgv_dqpdIcRdjmWg9BxMkc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">8f3188d91d1a5d2ee9ac45e2ba1d1e254db37fc4</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station61">
+		<yatra:hasName rdf:datatype="&xsd;string">North Winds Surveys Inc</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.33779759999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0381681</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJT6H10DxVC4cR6JyAlqsB9uw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">06bd9b6f3ae4d9bfbd9dba7209041ac1dbbfa91d</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station62">
+		<yatra:hasName rdf:datatype="&xsd;string">United States Postal Service</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3352248</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0370272</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJsd3VriJVC4cRTp9IrlXedDU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">23ef1e288e72ef8c37a1fe23e107fbde2f98fd63</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station63">
+		<yatra:hasName rdf:datatype="&xsd;string">Kanorado Senior Citizen</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3352465</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0368374</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJv7T4pSJVC4cRMtoTKjLD3UU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">282cda76b088673f472447dc8b84a9246502a496</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station64">
+		<yatra:hasName rdf:datatype="&xsd;string">King's Cafe</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3351651</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0368369</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJUXMepiJVC4cR-kVT8K18c9o</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">caed948a6949b599ac0f2e6729c949f4c1e36cdc</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["restaurant"|"food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station65">
+		<yatra:hasName rdf:datatype="&xsd;string">Kanorado Co-Op Oil</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.3340444</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0364197</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJz4ktpiJVC4cR63QffAvy7aQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">9b307af20485fc4dd6964caa0d46137f2a27be74</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["gas_station"|"car_repair"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station66">
+		<yatra:hasName rdf:datatype="&xsd;string">King's Cafe</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.33305420000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0379595</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJTw_ajhdVC4cRE1-fsrrYk_c</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f89eff23542bbe62c9a36263620d5237692cad81</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["restaurant"|"food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station67">
+		<yatra:hasName rdf:datatype="&xsd;string">Kanorado Fire Department</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.33305420000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0379595</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJTw_ajhdVC4cRhkjAouu9-BA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">796c40a8efd87dfc8e73acf4b1f171001c8ebe7e</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["fire_station"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station68">
+		<yatra:hasName rdf:datatype="&xsd;string">Bear Valley School</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.4711063</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.1099079</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJuShFxKxXc4cRBhfr4kPU7Ww</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f847b4cc4742f015eb0b328a4de5de6fb0db7134</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["school"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station69">
+		<yatra:hasName rdf:datatype="&xsd;string">Bear Valley Cemetery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">39.4625679</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-102.0905749</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJTxixYDdWc4cRHKNTMfz5IIs</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">c29e8428ffcf8ec2043899eaa0c17ab7df7558a4</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["cemetery"|"premise"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station60">
+		<yatra:hasName rdf:datatype="&xsd;string">Cowles</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1722355</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.4475575</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJH2FEY39UmIcRnMpnlmXVSz4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">4d1c3d8179c0d54d647108f258d8e66b0df2a921</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station61">
+		<yatra:hasName rdf:datatype="&xsd;string">Dane Church</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1902915</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.5950651</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJSbPoZUr6mIcR-jgHJRpAmOc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">2201af755d74c57f35736364fc6b7edac108266d</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["church"|"place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station62">
+		<yatra:hasName rdf:datatype="&xsd;string">New Virginia Church</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.197503</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.6511862</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJUYIEmi_7mIcR1a3c37VUZk0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">7c19ab3a63931740959ecfd317a26a6a39f2610a</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["church"|"place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station63">
+		<yatra:hasName rdf:datatype="&xsd;string">Gottsch Feed Yard</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1476658</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.4905769</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ5_LlNHnwmIcRWYwfGsirNsU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">077a6ea6fc39040ea741178194915e2081ebd24f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["car_repair"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station64">
+		<yatra:hasName rdf:datatype="&xsd;string">Red Cloud Animal Health LLC</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1040255</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.5195079</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJTzxtZWb2mIcRciu48EZGncY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">2a5c9a8053aeb92780cc05b90762149672422ec2</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["veterinary_care"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station65">
+		<yatra:hasName rdf:datatype="&xsd;string">Bells Sleepy Valley Campground</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1027913</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.5192272</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJx1aqZFv2mIcRffRFbusq8OM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">9b8a699a4611c364f54dcea4efd13ad695b43b0a</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["campground"|"park"|"lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/camping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station66">
+		<yatra:hasName rdf:datatype="&xsd;string">Green Acres Motel & RV Park</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1024155</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.5196251</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJE3a_emb2mIcR4pwPdxXtmy4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">5b33c8c03a985d25bb519a1bf075baa145ef22a8</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["rv_park"|"lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station67">
+		<yatra:hasName rdf:datatype="&xsd;string">Batin Cemetery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.2298315</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.4823601</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ6zaJCR1WmIcRtNG8U18M2G0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">0b811dd16c30041b54054b9eb922cb5df807aa27</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["cemetery"|"premise"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station68">
+		<yatra:hasName rdf:datatype="&xsd;string">Pleasant Prairie Cemetery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1463926</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.6410671</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJwf5EqQvwmIcRyzn7pef_OPw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">23b4fb0c4e8c4f4a508978d8757652742ddd5d65</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["cemetery"|"premise"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station69">
+		<yatra:hasName rdf:datatype="&xsd;string">Catherton Cemetery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.2421192</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.6330766</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJlUJZTpf8mIcR5SEjg9AeGBg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a0ec854c0ab2aef8c0e3ca171c2348fd6d296023</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["cemetery"|"premise"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station70">
+		<yatra:hasName rdf:datatype="&xsd;string">New Virginia Cemetery</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.1905577</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-98.6691693</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJQ3srCNfkmIcRiscD1-CPUAk</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a7d534d3801bd82a6bf6a234dfd4e004521c6177</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["cemetery"|"premise"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station70">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9296034</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9766416</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ_6E6BvhL64cRRwUOiZ--Nhk</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">e5d03db0112a51fb204530e935a7fc44fba21840</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station71">
+		<yatra:hasName rdf:datatype="&xsd;string">Johnston Communications</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9286499</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.97712539999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ1d2oI_5L64cRS7wamSdBgcw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">bf99f6b3ff266003c6dd0db9e3165f3e1afd4081</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station72">
+		<yatra:hasName rdf:datatype="&xsd;string">US Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9277101</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.97729869999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJe75iBf5L64cRFSwa6wRfekw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">d6dd18e4c485f8f34723827b9116ce460ffea891</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station73">
+		<yatra:hasName rdf:datatype="&xsd;string">Bank Iowa</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.92957029999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9772682</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJNWR4Lf5L64cR8vmwtWriYc4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">d860ed74d4ea78419b7c242133cf998201f9545a</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["bank"|"atm"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station74">
+		<yatra:hasName rdf:datatype="&xsd;string">Wolfe Funeral Home</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9286557</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9786783</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ3Ru_XP5L64cRzy8BAWkDuKE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b60a9081a218bdb5399b0a5f7670b573abdd898b</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["funeral_home"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station75">
+		<yatra:hasName rdf:datatype="&xsd;string">Nodaway Valley Equipment</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.929388</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.985699</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJIcyoRvhL64cRD_CO0W4cFck</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ee64783de2834e866d9c6d78d68b4d8482e63cfc</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station76">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca Public Library</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9304721</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.97729840000001</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJWcLM2v9L64cR7frgmqRgHcc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">72261bd59d6cc0d2bfbd54a0aeb4039206c894ba</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["library"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station77">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca Furniture & Antiques</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9286368</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.97726949999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJbz0vI_5L64cRONNFMaVl24c</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">9ff916863ad1c5602c4a059701b42c06e470041f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station78">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca City Hall</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9289318</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.977504</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJNY0HLv5L64cRGKIhW83khPg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">00c597c6773f5386ea9e84f0ae04ccded0577c97</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["local_government_office"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station79">
+		<yatra:hasName rdf:datatype="&xsd;string">Tyson Fresh Meats</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.85728330000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9860523</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJB5WHzAVK64cREnwoqubs1CI</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">90b5e21da74f9ba9883aec6c0e1f4e71f7a4d6ec</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station80">
+		<yatra:hasName rdf:datatype="&xsd;string">Crawford Co & Real Estate</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.928599</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.977271</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJzRvXIv5L64cREF3RPRx5_2w</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">0fe9ffb71b98cbb53485cd9fad70e2f7a448f996</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["insurance_agency"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station81">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca Farmers Telephone Co</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9286555</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9786206</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ_Qm1XP5L64cRzIZEs4soJjY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">74fe30fcc41fdd32bf8cc341f32645b9ac8dcdc8</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station82">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca Good Samaritan Center</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.934318</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9823612</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJUz5gRQdM64cR2uACAgJUuVw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b9d53d2a9bbe134adb58718f8ff6152c927ef952</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["health"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station83">
+		<yatra:hasName rdf:datatype="&xsd;string">Eickemeyer Refrigeration</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.8283116</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-95.0223544</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ1TSmQQs164cR24w1hE6H6Cs</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b71cee5f3fa8663a2d0b2f22d357c5a0054f519f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["general_contractor"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station84">
+		<yatra:hasName rdf:datatype="&xsd;string">BNSF Railway Co</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9296034</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9766416</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJxfxFSP5L64cRpZUh4x2IeyE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b312ea459ba6b11605cb51376a06d9ad7cfcc6c7</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station85">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca City Community Building</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9296848</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.97719579999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJycXH2v9L64cR1z5zPfpK9CQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">e6075e175437eef86df6ca5a3ef78f57a59b3a00</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["local_government_office"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station86">
+		<yatra:hasName rdf:datatype="&xsd;string">United Farmers Mercntl Co-Op</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9265067</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9854608</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJi-f7I_pL64cRz8W_z7goF6M</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">3967292d61f1e967b16985e80e47ae79ccf9ad79</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station87">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca Armory</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9296672</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.97616339999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJCz0GglVJ64cRZMCBaWnWSB4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b17dd5c521b4db04b6338b088c13106ee54481e3</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station88">
+		<yatra:hasName rdf:datatype="&xsd;string">Villisca Medical Clinic</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9286506</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.9772363</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ1TsjI_5L64cR8y07N0Z2bCo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">056a5a4d09840edf625dbeba9973690fe90332ba</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["doctor"|"health"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station89">
+		<yatra:hasName rdf:datatype="&xsd;string">Nodaway</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">40.9377263</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-94.8935601</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJxReNOVVP64cRkARGV9FJAl4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">dd4c7aca7f9da345621df4e9af20e558d75d8285</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station80">
+		<yatra:hasName rdf:datatype="&xsd;string">Lone Tree</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.48807749999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.425994</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJn0K-kT0R5IcRjCIo_dCS8M4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">129ec47760542091df129a602c03967abff908af</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station81">
+		<yatra:hasName rdf:datatype="&xsd;string">Nichols Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.4805796</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3076576</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ1zvtfecO5IcR2_ZAteLINE8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">bb7f7150ed05553a9adc890674b4757ea7bade4a</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station82">
+		<yatra:hasName rdf:datatype="&xsd;string">Conesville Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.3819687</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3498791</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJFd-QDsME5IcR4HXmQrYMXS0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a0b9c32d90ee3abefe8f39d25bafe5d0a075fa92</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station83">
+		<yatra:hasName rdf:datatype="&xsd;string">Iowa Parrot Rescue</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.3819131</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.2526649</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ-7HOe-IG5IcRkEqQiRUwUUc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">cac60a42b62bb05aee2cc4578e34a73691d94c46</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station84">
+		<yatra:hasName rdf:datatype="&xsd;string">Christian Church</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.4811351</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3076576</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ92YC3cIO5IcR5cOxrcvj2bg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ff1068aa2c3a3fb8de8ac59373731af7011b0c8c</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["church"|"place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station85">
+		<yatra:hasName rdf:datatype="&xsd;string">D & J Tree Farm</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.452503</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.307574</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ18K6PUAP5IcRODWMK_C3RAU</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">677e3feb4c1120bd271cd2a64d4ba13b950ccbd6</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station86">
+		<yatra:hasName rdf:datatype="&xsd;string">Chown Appliance</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.4813896</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3085993</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ6cDGfucO5IcRGkO6SL-3Voo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">3b07047360231aca8e1279429b92490f9ad7b135</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["plumber"|"general_contractor"|"electrician"|"furniture_store"|"home_goods_store"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station87">
+		<yatra:hasName rdf:datatype="&xsd;string">Bills Auto Salvage</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.3722556</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3509875</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJYWaiX7gE5IcRMvYH-hDFcDY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">fd708b48642ffbb4986e0d647937684571329bba</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["car_repair"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station88">
+		<yatra:hasName rdf:datatype="&xsd;string">Kalona Kountry Katering</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.38150399999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.362067</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ5fO_xM0E5IcRzu0mxeO-NEM</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">00e9e5e38b80166beee2e8945d14c535b48e0c71</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["meal_delivery"|"food"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station89">
+		<yatra:hasName rdf:datatype="&xsd;string">Black Crow Forge Inc</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.39933200000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.317228</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJu2wp7rEF5IcRokO8CecGvlE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f3e6bdb89bd5906028a6d2d86688fe0b9781a9f2</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station90">
+		<yatra:hasName rdf:datatype="&xsd;string">Casey's General Store</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.480565</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.30406950000001</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ9bLWdtwO5IcRfdfkkwo4qU8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">b3536101b56133e8a4e3fe783629c41accd05ca7</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["convenience_store"|"gas_station"|"meal_takeaway"|"restaurant"|"food"|"store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station91">
+		<yatra:hasName rdf:datatype="&xsd;string">Nichols United Methodist Church</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.48005399999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.308071</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJL5Sg9N0O5IcRIQD7MaHl4oY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">765ba778d71d7c45ba5d0205067ac7fcf6ec0acc</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["church"|"place_of_worship"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station92">
+		<yatra:hasName rdf:datatype="&xsd;string">Nature Conservancy</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.414858</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.251813</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJe8pjZzUG5IcRYJpOgBIZ00w</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">4d3726f5901af317799fdc68834e38618eed2e99</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station93">
+		<yatra:hasName rdf:datatype="&xsd;string">Nichols Agriservice LLC</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.483802</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.30873</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJrfXr_ecO5IcRJ4twcXgY64k</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">9731754d882ca74a491dcb35902d44b21b921bf7</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["store"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station94">
+		<yatra:hasName rdf:datatype="&xsd;string">Farmers & Merchants Savings</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.48173799999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.308092</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJU5kOfN0O5IcRyAi4QPWs3g0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">3c4a09dd3cc4a9a60d1209f7714f81727697f32c</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["bank"|"atm"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station95">
+		<yatra:hasName rdf:datatype="&xsd;string">US Post Office</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.4809746</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3084161</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ1zvtfecO5IcROwRCi2gIjbQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">575b42a20de64a8f65a9daccbe1424509406a330</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station96">
+		<yatra:hasName rdf:datatype="&xsd;string">Pike Run Services</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.47984599999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3076067</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ2Q7m7d0O5IcRHwxkN8-3Tns</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">64516d8fc56a91035603ba214ab90e9a5ec810cf</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["car_repair"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station97">
+		<yatra:hasName rdf:datatype="&xsd;string">United States Postal Service</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.37809680000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3504585</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJP9irYcEE5IcRIhhZyPUI4Us</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">d4ab9d8d2ad2bc2ffc1f35250da92abbcc08d7e4</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["post_office"|"finance"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/post_office-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station98">
+		<yatra:hasName rdf:datatype="&xsd;string">Hooks Point Irrigation</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.3714303</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3499666</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJKd1iEL8E5IcRIxRNxTgSuVw</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">1f0bce57ffcffbac25c3182ab9828f48b7d0339f</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["food"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station99">
+		<yatra:hasName rdf:datatype="&xsd;string">Nichols</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.4811351</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-91.3076576</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJpbXO890O5IcRk4ZfB52ErfI</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a6767f39f47560e99386347a983bf5d983a9aa1b</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station90">
+		<yatra:hasName rdf:datatype="&xsd;string">Chicago</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8781136</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6297982</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ7cv00DwsDogRAMDACa2m4K8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">53eeb015d61056c54245a909c79862532fc953ad</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["locality"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station91">
+		<yatra:hasName rdf:datatype="&xsd;string">Central Loop Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.879196</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6310146</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJS9DQYLwsDogRmRGu2xzlF9U</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">671e9c90dc35bceb11f22943adc4d9604cd1fec2</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station92">
+		<yatra:hasName rdf:datatype="&xsd;string">JW Marriott Chicago</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8790606</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6331221</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJESf9FrwsDogRg9RZOPtiZp8</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">4ba9e91af645574cb421e518e30d68b77515d4fa</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station93">
+		<yatra:hasName rdf:datatype="&xsd;string">Hampton Inn Majestic Chicago Theatre District</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.880824</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.62862799999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJIQttU7ssDogRMdqIqwEDvkc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">8dd2ffd8491763984274b198b1ae2a89f768d197</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station94">
+		<yatra:hasName rdf:datatype="&xsd;string">Hotel Blake, An Ascend Hotel Collection Member</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.875103</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.629322</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJZ8GU4ZcsDogRIlR5GodzDrg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">5ecd83673ec15c42f150ecd24a9f76969456caeb</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station95">
+		<yatra:hasName rdf:datatype="&xsd;string">W Chicago - City Center</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.879683</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.633225</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJYYPnG7wsDogR8KApuOJNQw4</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">2c0196238e8d233ae1c3c455f0fc1bf6c3758afe</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station96">
+		<yatra:hasName rdf:datatype="&xsd;string">The Buckingham Club</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8755986</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6321717</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJK3Ymib0sDogR1dZtqCGG5HQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">a90534d37384d2982430056db4bc75ff53cb2e97</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station97">
+		<yatra:hasName rdf:datatype="&xsd;string">HI Chicago Hostel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.875894</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.626499</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJeV1VhKIsDogRIl9F2EXvlsE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f70b62c9029fa64847b5fbf0c2e075cd52a6c1ee</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station98">
+		<yatra:hasName rdf:datatype="&xsd;string">Silversmith Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8816478</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6266527</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJOdtM9KQsDogRs5DunDaE3bc</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">427cd82656b68ca06687249bc50ee43f17a98b91</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station99">
+		<yatra:hasName rdf:datatype="&xsd;string">Kimpton Burnham Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8830146</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.62824719999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ1dYmKaUsDogRHr-25sL2hAQ</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">fd28bc7b8accbaec3a2a56991f1c3b5b7951c0c8</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station100">
+		<yatra:hasName rdf:datatype="&xsd;string">Travelodge Hotel Downtown Chicago</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.87427</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.62535000000001</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJua_pjZgsDogR_RPj0hIZHhA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">223b94d45d6780fca30d02ab5dd31eca4bedfca7</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station101">
+		<yatra:hasName rdf:datatype="&xsd;string">La Quinta Inn & Suites Chicago Downtown</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8815994</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6350909</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJYyVhF7ksDogRV4XlQid6GsE</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ca5a25484a1865e44ef2cea8eaa52a8f64984d5e</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station102">
+		<yatra:hasName rdf:datatype="&xsd;string">Renaissance Blackstone Chicago Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8732508</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.62456680000001</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJp4qG25gsDogR9zuhTZqa2b0</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">c36e6793f47f8b516ac2cabdc66d76c4ade7961b</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station103">
+		<yatra:hasName rdf:datatype="&xsd;string">Kimpton Hotel Allegro</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8843279</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.633355</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJqWzZ9bksDogRMhdu6qnb4cg</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">af9cfc6ef381ff5439a28552596fd25e228822d6</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station104">
+		<yatra:hasName rdf:datatype="&xsd;string">Hilton Chicago</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8725329</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6248502</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJL3osJJksDogRodsJu9TjTQA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">ec6a6863bb47165457b69db3e53f2546873c93a9</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station105">
+		<yatra:hasName rdf:datatype="&xsd;string">theWit Chicago - a DoubleTree by Hilton Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8860489</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6276182</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJH7aA-q8sDogREx0UJ9b1ORo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">93d22fe2535f7f1bc65ade8828a8829e6bde10b2</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station106">
+		<yatra:hasName rdf:datatype="&xsd;string">Holiday Inn Hotel & Suites Chicago-Downtown</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.874557</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.63997409999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJ34L_kuosDogRODW49JEHGaY</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">d446c8c806ad87a6b00aca793c008cc89a774b85</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station107">
+		<yatra:hasName rdf:datatype="&xsd;string">Renaissance Chicago Downtown Hotel</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.8863616</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.6281621</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJeXUiILAsDogRFNdo6Iq27oo</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">f9467b37102a446b76d8d5f550e0412e53ab0a47</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station108">
+		<yatra:hasName rdf:datatype="&xsd;string">Kimpton Hotel Monaco Chicago</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.88642000000001</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.62601699999999</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJcYNbda8sDogR-LpwASKjn2M</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">7fef49f3a35d6fa9e19e42708cadd78f39e1d825</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["lodging"|"point_of_interest"|"establishment"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+		<rdf:Description rdf:about="&yatra;station109">
+		<yatra:hasName rdf:datatype="&xsd;string">South Side</yatra:hasName>
+		<yatra:hasLatitude rdf:datatype="&xsd;float">41.77665409999999</yatra:hasLatitude>
+		<yatra:hasLongitude rdf:datatype="&xsd;float">-87.658113</yatra:hasLongitude>
+		<yatra:hasPlaceId rdf:datatype="&xsd;string">ChIJz-4igKcvDogR7fyv2_ne1vA</yatra:hasPlaceId>
+		<yatra:hasId rdf:datatype="&xsd;string">31b9a844d466cca6743a6067e9760737c2836d03</yatra:hasId>
+		<yatra:hasFilter rdf:datatype="&xsd;string">["neighborhood"|"political"]</yatra:hasFilter>
+		<yatra:hasIconUrl rdf:datatype="&xsd;string">https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png</yatra:hasIconUrl>
+	</rdf:Description>
+<rdf:Description rdf:about="&yatra;trip0">
+		<yatra:hasTerminal rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/terminal1"/>
+		<yatra:hasTerminal rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/terminal2"/>
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station0" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station1" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station2" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station3" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station4" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station5" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station6" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station7" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station8" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station9" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station10" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station11" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station12" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station13" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station14" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station15" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station16" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station17" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station18" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station19" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station10" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station11" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station12" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station13" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station20" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station21" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station22" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station23" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station24" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station25" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station26" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station30" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station31" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station32" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station33" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station34" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station35" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station36" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station37" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station38" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station39" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station40" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station41" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station42" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station43" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station44" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station45" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station46" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station47" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station48" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station49" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station40" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station41" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station42" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station43" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station44" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station45" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station46" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station47" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station48" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station49" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station50" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station51" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station50" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station51" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station52" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station53" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station54" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station55" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station56" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station57" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station58" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station59" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station60" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station61" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station62" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station63" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station64" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station65" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station66" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station67" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station68" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station69" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station60" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station61" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station62" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station63" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station64" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station65" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station66" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station67" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station68" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station69" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station70" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station70" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station71" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station72" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station73" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station74" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station75" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station76" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station77" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station78" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station79" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station80" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station81" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station82" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station83" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station84" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station85" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station86" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station87" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station88" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station89" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station80" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station81" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station82" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station83" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station84" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station85" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station86" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station87" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station88" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station89" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station90" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station91" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station92" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station93" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station94" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station95" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station96" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station97" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station98" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station99" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station90" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station91" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station92" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station93" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station94" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station95" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station96" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station97" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station98" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station99" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station100" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station101" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station102" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station103" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station104" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station105" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station106" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station107" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station108" />
+		<yatra:hasStation rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra/station109" />
+</rdf:Description>
+</rdf:RDF>
