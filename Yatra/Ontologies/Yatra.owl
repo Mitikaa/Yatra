@@ -1,90 +1,43 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/ontologies/2016/12/Yata"
+     xml:base="http://www.semanticweb.org/ontologies/2016/12/Yatra"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/ontologies/2016/12/Yata">
+     ontologyIRI="http://www.semanticweb.org/ontologies/2016/12/Yatra">
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2016/12/Yata"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <DataProperty IRI="#hasLatitude"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasTrajectory"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Automobile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Attractions"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasLocalAttractions"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasLocation"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasMilage"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasOpenTime"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBudget"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasVehicleType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSource"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDistance"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDescription"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Trip"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasIntermediateLocation"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasWeatherForecast"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Weather"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasLongitude"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasCloseTime"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#attractionCategory"/>
+        <Class IRI="#Attractions"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Location"/>
+        <DataProperty IRI="#hasTrajectory"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasOwner"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasDestination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attractionCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Automobile"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasEndDate"/>
@@ -93,15 +46,53 @@
         <ObjectProperty IRI="#isFriendOf"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasSeats"/>
+        <ObjectProperty IRI="#hasLocalAttractions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLatitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIntermediateLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasStartDate"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Weather"/>
-        <Class IRI="#Location"/>
-    </SubClassOf>
+    <Declaration>
+        <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMilage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSeats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVehicleType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDistance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOpenTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBudget"/>
+    </Declaration>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDestination"/>
         <Class IRI="#Trip"/>
@@ -221,10 +212,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasVehicleType"/>
         <Class IRI="#Automobile"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasWeatherForecast"/>
-        <Class IRI="#Weather"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#attractionCategory"/>
@@ -284,10 +271,6 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasVehicleType"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#hasWeatherForecast"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
 </Ontology>
