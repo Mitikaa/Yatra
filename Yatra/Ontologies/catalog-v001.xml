@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1478988916980" name="http://www.semanticweb.org/ontologies/2016/12/Yata" uri="Yatra.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1479439931977" name="http://www.semanticweb.org/ontologies/2016/12/Yatra" uri="Yatra.owl"/>
     </group>
 </catalog>

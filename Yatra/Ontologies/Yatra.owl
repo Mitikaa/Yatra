@@ -6,53 +6,56 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/ontologies/2016/12/Yatra">
-    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2016/12/Yata"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2016/12/Yatra"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <DataProperty IRI="#hasPlaceId"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasLocation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasCloseTime"/>
+        <ObjectProperty IRI="#hasTerminals"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Attractions"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasTrajectory"/>
+        <DataProperty IRI="#hasCloseTime"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasOwner"/>
+        <DataProperty IRI="#hasTrajectory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Location"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasDestination"/>
+        <ObjectProperty IRI="#hasOwner"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#attractionCategory"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Automobile"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasEndDate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Automobile"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isFriendOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStations"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasLocalAttractions"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasLatitude"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasIntermediateLocation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Trip"/>
@@ -64,9 +67,6 @@
         <DataProperty IRI="#hasStartDate"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasSource"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasDescription"/>
     </Declaration>
     <Declaration>
@@ -74,6 +74,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasSeats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stations"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasLongitude"/>
@@ -88,22 +91,29 @@
         <DataProperty IRI="#hasOpenTime"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Terminals"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasName"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasBudget"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Stations"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terminals"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasDestination"/>
-        <Class IRI="#Trip"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasIntermediateLocation"/>
-        <Class IRI="#Trip"/>
+        <ObjectProperty IRI="#hasLocalAttractions"/>
+        <Class IRI="#Stations"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasLocalAttractions"/>
-        <Class IRI="#Location"/>
+        <Class IRI="#Terminals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasLocation"/>
@@ -114,21 +124,17 @@
         <Class IRI="#Automobile"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSource"/>
+        <ObjectProperty IRI="#hasStations"/>
+        <Class IRI="#Trip"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTerminals"/>
         <Class IRI="#Trip"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isFriendOf"/>
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasDestination"/>
-        <Class IRI="#Location"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasIntermediateLocation"/>
-        <Class IRI="#Location"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasLocalAttractions"/>
         <Class IRI="#Attractions"/>
@@ -142,8 +148,12 @@
         <Class IRI="#Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasSource"/>
-        <Class IRI="#Location"/>
+        <ObjectProperty IRI="#hasStations"/>
+        <Class IRI="#Stations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTerminals"/>
+        <Class IRI="#Terminals"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isFriendOf"/>
@@ -178,8 +188,24 @@
         <Class IRI="#Location"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#hasLatitude"/>
+        <Class IRI="#Stations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLatitude"/>
+        <Class IRI="#Terminals"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#hasLongitude"/>
         <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLongitude"/>
+        <Class IRI="#Stations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLongitude"/>
+        <Class IRI="#Terminals"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasMilage"/>
@@ -196,6 +222,14 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasOpenTime"/>
         <Class IRI="#Attractions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPlaceId"/>
+        <Class IRI="#Stations"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPlaceId"/>
+        <Class IRI="#Terminals"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasSeats"/>
@@ -256,6 +290,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasOpenTime"/>
         <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPlaceId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasSeats"/>
