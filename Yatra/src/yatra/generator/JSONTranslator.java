@@ -3,9 +3,7 @@ package yatra.generator;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.*;
 
 import org.json.JSONArray;
@@ -65,46 +63,22 @@ public class JSONTranslator {
 					String destinationKey = destinationData.get("place_id").toString();
 					String sourceKey = sourceData.get("place_id").toString();
 					int counter = j + 1;
-					Integer isKeyPresent = (Integer) isPresent.get(destinationKey);
 
-					tripBuilder.append("	<rdf:Description rdf:about=\"&yatra;trip" + j + "\">\n");
+					tripBuilder.append("	<rdf:Description rdf:about=\"&yatra;trip" + counter + "\">\n");
+
+					Integer isKeyPresent = (Integer) isPresent.get(sourceKey);
 
 					if (isKeyPresent != null) {
 						tripBuilder
-								.append("		<yatra:hasTerminal rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra/terminal"
+								.append("		<yatra:hasTerminal1 rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#terminal"
 										+ isKeyPresent + "\"/>\n");
-
-					} else {
-						isPresent.put(destinationKey, counter);
-
-						tripBuilder
-								.append("		<yatra:hasTerminal rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra/terminal"
-										+ counter + "\"/>\n");
-
-						rdfString.append("		<rdf:Description rdf:about=\"&yatra;terminal" + counter + "\">\n");
-						rdfString.append("		<yatra:hasName rdf:datatype=\"&xsd;string\">"
-								+ destinationData.get("long_name").toString() + "</yatra:hasName>\n");
-						rdfString.append("		<yatra:hasLatitude rdf:datatype=\"&xsd;float\">"
-								+ destinationData.get("lat").toString() + "</yatra:hasLatitude>\n");
-						rdfString.append("		<yatra:hasLongitude rdf:datatype=\"&xsd;float\">"
-								+ destinationData.get("lng").toString() + "</yatra:hasLongitude>\n");
-						rdfString.append("		<yatra:hasPlaceId rdf:datatype=\"&xsd;string\">"
-								+ destinationData.get("place_id").toString() + "</yatra:hasPlaceId>\n");
-						rdfString.append("	</rdf:Description>\n");
-
+						
 						counter = counter + 1;
-					}
-
-					isKeyPresent = (Integer) isPresent.get(sourceKey);
-					if (isKeyPresent != null) {
-						tripBuilder
-								.append("		<yatra:hasTerminal rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra/terminal"
-										+ isKeyPresent + "\"/>\n");
 
 					} else {
 						isPresent.put(sourceKey, counter);
 						tripBuilder
-								.append("		<yatra:hasTerminal rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra/terminal"
+								.append("		<yatra:hasTerminal1 rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#terminal"
 										+ counter + "\"/>\n");
 
 						rdfString.append("		<rdf:Description rdf:about=\"&yatra;terminal" + counter + "\">\n");
@@ -116,6 +90,33 @@ public class JSONTranslator {
 								+ sourceData.get("lng").toString() + "</yatra:hasLongitude>\n");
 						rdfString.append("		<yatra:hasPlaceId rdf:datatype=\"&xsd;string\">"
 								+ sourceData.get("place_id").toString() + "</yatra:hasPlaceId>\n");
+						rdfString.append("	</rdf:Description>\n");
+
+						counter = counter + 1;
+					}
+
+					isKeyPresent = (Integer) isPresent.get(destinationKey);
+					if (isKeyPresent != null) {
+						tripBuilder
+								.append("		<yatra:hasTerminal2 rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#terminal"
+										+ isKeyPresent + "\"/>\n");
+
+					} else {
+						isPresent.put(destinationKey, counter);
+
+						tripBuilder
+								.append("		<yatra:hasTerminal2 rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#terminal"
+										+ counter + "\"/>\n");
+
+						rdfString.append("		<rdf:Description rdf:about=\"&yatra;terminal" + counter + "\">\n");
+						rdfString.append("		<yatra:hasName rdf:datatype=\"&xsd;string\">"
+								+ destinationData.get("long_name").toString() + "</yatra:hasName>\n");
+						rdfString.append("		<yatra:hasLatitude rdf:datatype=\"&xsd;float\">"
+								+ destinationData.get("lat").toString() + "</yatra:hasLatitude>\n");
+						rdfString.append("		<yatra:hasLongitude rdf:datatype=\"&xsd;float\">"
+								+ destinationData.get("lng").toString() + "</yatra:hasLongitude>\n");
+						rdfString.append("		<yatra:hasPlaceId rdf:datatype=\"&xsd;string\">"
+								+ destinationData.get("place_id").toString() + "</yatra:hasPlaceId>\n");
 						rdfString.append("	</rdf:Description>\n");
 					}
 
@@ -135,15 +136,15 @@ public class JSONTranslator {
 
 							if (isStationPresent != null) {
 								tripBuilder
-										.append("		<yatra:hasStation rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra/station"
+										.append("		<yatra:hasStation rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#station"
 												+ isStationPresent + "\" />\n");
 							} else {
-								
+
 								tripBuilder
-								.append("		<yatra:hasStation rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra/station"
-										+ ((j * 100) + (i * 10) + k) + "\" />\n");
-								
-								isPresent.put(sourceKey, ((j * 100) + (i * 10) + k));
+										.append("		<yatra:hasStation rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#station"
+												+ ((j * 100) + (i * 10) + k) + "\" />\n");
+
+								isPresent.put(stationKey, ((j * 100) + (i * 10) + k));
 
 								rdfString.append("		<rdf:Description rdf:about=\"&yatra;station"
 										+ Integer.toString((j * 100) + (i * 10) + k) + "\">\n");
@@ -180,16 +181,14 @@ public class JSONTranslator {
 							}
 						}
 					}
+					tripBuilder.append("	</rdf:Description>\n");
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
 		System.out.println("Data appened!");
-		
-		tripBuilder
-		.append("	</rdf:Description>\n");
-		
+
 		rdfString.append(tripBuilder.toString());
 
 		return rdfString.toString();
