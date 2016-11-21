@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Controller
  */
-@WebServlet("/Controller")
+@WebServlet("/controller/*")
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -33,9 +33,16 @@ public class Controller extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		String responseJson = "[{latitude:33.4255000, longitude:-111.9400000},{latitude:38.0053936, longitude:-100.8844774}]";
+		
+		//response.setContentType("application/json");
+		response.setContentType("text/plain");    
+		response.setCharacterEncoding("UTF-8"); 
+		response.getWriter().write(responseJson);  
 	}
 
 	/**
