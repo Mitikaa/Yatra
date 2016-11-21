@@ -9,6 +9,8 @@ import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.RDFNode;
 
+import yatra.model.Station;
+
 /**
  * @author Mitikaa
  *
@@ -39,8 +41,8 @@ public class TripDao {
 		return result;
 	}
 	
-	public String getStationDetails(Model model, String stationURI, String filter){
-		String result = runStationDetailsQuery("select ?name ?latitude ?longitude ?filter ?iconUrl WHERE{ "
+	public Station getStationDetails(Model model, String stationURI, String filter){
+		Station result = runStationDetailsQuery("select ?name ?latitude ?longitude ?filter ?iconUrl WHERE{ "
 				+ "<"+ stationURI +"> yatra:hasStationName ?name."
 				+ "<"+ stationURI +"> yatra:hasLatitude ?latitude."
 				+ "<"+ stationURI +"> yatra:hasLongitude ?longitude."
@@ -109,11 +111,9 @@ public class TripDao {
 				RDFNode source = soln.get("?source");
 				RDFNode dest = soln.get("?dest");
 				if( source != null){
-					//System.out.println(source.toString());
 					result.append(source.toString()+"\n");
 					}
 				else if(dest != null){
-					//System.out.println(dest.toString());
 					result.append(dest.toString()+"\n");
 					}
 				else{
@@ -199,10 +199,12 @@ public class TripDao {
 			  }
 		  return result.toString();
 		}
-	private String runStationDetailsQuery(String queryRequest, Model model){
+	
+	private Station runStationDetailsQuery(String queryRequest, Model model){
 		
 		  StringBuffer queryStr = new StringBuffer();
-		  String result = null;
+		  Station station = new Station();
+		  
 		  // Establish Prefixes
 		  //Set default Name space first
 		  queryStr.append("PREFIX rdfs" + ": <" + "http://www.w3.org/2000/01/rdf-schema#" + "> ");
@@ -222,8 +224,16 @@ public class TripDao {
 			{
 				QuerySolution soln = response.nextSolution();
 				RDFNode name = soln.get("?name");
+				RDFNode latitude = soln.get("?latitude");
+				RDFNode longitude = soln.get("?longitude");
+				RDFNode filter = soln.get("?filter");
+				RDFNode iconUrl = soln.get("?iconUrl");
 				if( name != null){
-					result = name.toString();
+					station.setName(name.toString());
+					station.setFilters(filter.toString());
+					station.setLatitude(latitude.toString());
+					station.setLongitude(longitude.toString());
+					station.setIconUrl(iconUrl.toString());
 					}
 				else{
 					System.err.println("No details found!");	
@@ -233,6 +243,6 @@ public class TripDao {
 		  finally { 
 			  qexec.close();
 			  }
-		  return result;
+		  return station;
 		}
 }

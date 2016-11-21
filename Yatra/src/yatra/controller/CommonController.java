@@ -8,6 +8,7 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 
 import yatra.dao.TripDao;
+import yatra.model.Station;
 
 /**
  * @author Mitikaa
@@ -52,11 +53,11 @@ public class CommonController {
 		
 		//store station URis
 		String[] stationURIs = resultStationList.split("\n");
-		String filter = "politics";
+		String filter = "point_of_interest";
 		for (int i=0; i<stationURIs.length; i++){			
-			String resultStationDetails = tripDao.getStationDetails(trip._trips, stationURIs[i], filter);
+			Station resultStationDetails = tripDao.getStationDetails(trip._trips, stationURIs[i], filter);
 			if(resultStationDetails!=null){
-				System.out.println(resultStationDetails);
+				System.out.println(resultStationDetails.toString());
 			}
 		}
 	}

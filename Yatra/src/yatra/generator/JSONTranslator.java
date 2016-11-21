@@ -11,8 +11,8 @@ import org.json.JSONObject;
 
 public class JSONTranslator {
 
-	private static final String FILE_PATH_AUTOMOBILE = "E:/Study/Fall2016/SER594/Project/Yatra/Yatra/Files/LocationJSONData.txt";
-	private static final String FILE_PATH_RDF_AUTOMOBILE = "E:/Study/Fall2016/SER594/Project/Yatra/Yatra/Files/LocationRDF.rdf";
+	private static final String FILE_PATH_AUTOMOBILE = "/Users/Mitikaa/git/Yatra/Yatra/Files/LocationJSONData.txt";
+	private static final String FILE_PATH_RDF_AUTOMOBILE = "/Users/Mitikaa/git/Yatra/Yatra/Files/LocationRDF.rdf";
 
 	public static void main(String[] args) {
 		JSONTranslator jSONTranslator = new JSONTranslator();
@@ -82,8 +82,8 @@ public class JSONTranslator {
 										+ counter + "\"/>\n");
 
 						rdfString.append("		<rdf:Description rdf:about=\"&yatra;terminal" + counter + "\">\n");
-						rdfString.append("		<yatra:hasName rdf:datatype=\"&xsd;string\">"
-								+ sourceData.get("long_name").toString() + "</yatra:hasName>\n");
+						rdfString.append("		<yatra:hasTerminalName rdf:datatype=\"&xsd;string\">"
+								+ sourceData.get("long_name").toString().replaceAll("&", " and ") + "</yatra:hasTerminalName>\n");
 						rdfString.append("		<yatra:hasLatitude rdf:datatype=\"&xsd;float\">"
 								+ sourceData.get("lat").toString() + "</yatra:hasLatitude>\n");
 						rdfString.append("		<yatra:hasLongitude rdf:datatype=\"&xsd;float\">"
@@ -109,8 +109,8 @@ public class JSONTranslator {
 										+ counter + "\"/>\n");
 
 						rdfString.append("		<rdf:Description rdf:about=\"&yatra;terminal" + counter + "\">\n");
-						rdfString.append("		<yatra:hasName rdf:datatype=\"&xsd;string\">"
-								+ destinationData.get("long_name").toString() + "</yatra:hasName>\n");
+						rdfString.append("		<yatra:hasTerminalName rdf:datatype=\"&xsd;string\">"
+								+ destinationData.get("long_name").toString().replaceAll("&", " and ") + "</yatra:hasTerminalName>\n");
 						rdfString.append("		<yatra:hasLatitude rdf:datatype=\"&xsd;float\">"
 								+ destinationData.get("lat").toString() + "</yatra:hasLatitude>\n");
 						rdfString.append("		<yatra:hasLongitude rdf:datatype=\"&xsd;float\">"
@@ -149,8 +149,8 @@ public class JSONTranslator {
 								rdfString.append("		<rdf:Description rdf:about=\"&yatra;station"
 										+ Integer.toString((j * 100) + (i * 10) + k) + "\">\n");
 								if (station.has("localName"))
-									rdfString.append("		<yatra:hasName rdf:datatype=\"&xsd;string\">"
-											+ station.get("localName").toString() + "</yatra:hasName>\n");
+									rdfString.append("		<yatra:hasStationName rdf:datatype=\"&xsd;string\">"
+											+ station.get("localName").toString().replaceAll("&", " and ") + "</yatra:hasStationName>\n");
 
 								if (station.has("location")) {
 									rdfString.append("		<yatra:hasLatitude rdf:datatype=\"&xsd;float\">"
