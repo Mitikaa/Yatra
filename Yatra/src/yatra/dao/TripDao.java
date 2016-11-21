@@ -9,6 +9,8 @@ import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.RDFNode;
 
+import yatra.model.Station;
+
 /**
  * @author Mitikaa
  *
@@ -19,42 +21,35 @@ public class TripDao {
 		runFilterQuery("select DISTINCT ?filters where {?terminal yatra:hasFilter ?filters}",model);
 	}
 	
-	public void getTerminalURIs(Model model){
-		System.out.println("Source and Destination URIs");
-		String source = "Los Angeles; California";
-		String destination = "Chicago; Illinois";
-		runTerminalQuery("select ?source ?dest WHERE{ "
+	public String getTerminalURIs(Model model, String source, String destination){
+		String result = runTerminalQuery("select ?source ?dest WHERE{ "
 				+ "{?source yatra:hasTerminalName \""+ source + "\"} UNION"
 				+ "{?dest yatra:hasTerminalName \"" + destination + "\"}}",model);
+		return result;
 	}
 	
-	public void getTripURI(Model model){
-		System.out.println("Trips");
-		String sourceURI = "http://www.semanticweb.org/ontologies/2016/12/Yatra#terminal2";
-		String destURI = "http://www.semanticweb.org/ontologies/2016/12/Yatra#terminal1";
-		runTripQuery("select ?trip WHERE{ "
+	public String getTripURI(Model model, String sourceURI, String destURI){
+		String result = runTripQuery("select ?trip WHERE{ "
 				+ "?trip yatra:hasTerminal1 <"+ sourceURI +">." 
 				+ "?trip yatra:hasTerminal2 <"+ destURI + ">.}",model);
+		return result;
 	}
 	
-	public void getStationURIs(Model model){
-		System.out.println("StationList");
-		String tripURI = "http://www.semanticweb.org/ontologies/2016/12/Yatra#trip54";
-		runStationQuery("select ?stations WHERE{ "
+	public String getStationURIs(Model model, String tripURI){
+		String result = runStationQuery("select ?stations WHERE{ "
 				+ "<" + tripURI +"> yatra:hasStation ?stations }", model);
+		return result;
 	}
 	
-	public void getStationDetails(Model model){
-		System.out.println("Station");
-		String stationURI = "http://www.semanticweb.org/ontologies/2016/12/Yatra#station0";
-		String filter = "politics";
-		runStationDetailsQuery("select ?name ?latitude ?longitude ?filter ?iconUrl WHERE{ "
+	public Station getStationDetails(Model model, String stationURI, String filter){
+		Station result = runStationDetailsQuery("select ?name ?latitude ?longitude ?filter ?iconUrl WHERE{ "
 				+ "<"+ stationURI +"> yatra:hasStationName ?name."
 				+ "<"+ stationURI +"> yatra:hasLatitude ?latitude."
 				+ "<"+ stationURI +"> yatra:hasLongitude ?longitude."
 				+ "<"+ stationURI +"> yatra:hasFilter ?filter."
 				+ "<"+ stationURI +"> yatra:hasIconUrl ?iconUrl."
 				+ "FILTER regex(?filter, \""+ filter +"\").}", model);
+		return result;
 	}
 	
 	private void runFilterQuery(String queryRequest, Model model){
@@ -91,10 +86,10 @@ public class TripDao {
 			  }
 		}
 	
-	private void runTerminalQuery(String queryRequest, Model model){
+	private String runTerminalQuery(String queryRequest, Model model){
 		
 		  StringBuffer queryStr = new StringBuffer();
-			
+		  StringBuffer result = new StringBuffer();
 		  // Establish Prefixes
 		  //Set default Name space first
 		  queryStr.append("PREFIX rdfs" + ": <" + "http://www.w3.org/2000/01/rdf-schema#" + "> ");
@@ -116,10 +111,10 @@ public class TripDao {
 				RDFNode source = soln.get("?source");
 				RDFNode dest = soln.get("?dest");
 				if( source != null){
-					System.out.println(source.toString());
+					result.append(source.toString()+"\n");
 					}
 				else if(dest != null){
-					System.out.println(dest.toString());
+					result.append(dest.toString()+"\n");
 					}
 				else{
 					System.err.println("No terminal found!");	
@@ -129,12 +124,13 @@ public class TripDao {
 		  finally { 
 			  qexec.close();
 			  }
+		  return result.toString();
 		}
 	
-	private void runTripQuery(String queryRequest, Model model){
+	private String runTripQuery(String queryRequest, Model model){
 		
 		  StringBuffer queryStr = new StringBuffer();
-			
+		  StringBuffer result = new StringBuffer();
 		  // Establish Prefixes
 		  //Set default Name space first
 		  queryStr.append("PREFIX rdfs" + ": <" + "http://www.w3.org/2000/01/rdf-schema#" + "> ");
@@ -155,7 +151,7 @@ public class TripDao {
 				QuerySolution soln = response.nextSolution();
 				RDFNode trip = soln.get("?trip");
 				if( trip != null){
-					System.out.println(trip.toString());
+					result.append(trip.toString() + "\n");
 					}
 				else{
 					System.err.println("No trip found!");	
@@ -165,11 +161,12 @@ public class TripDao {
 		  finally { 
 			  qexec.close();
 			  }
+		  return result.toString();
 		}
-	private void runStationQuery(String queryRequest, Model model){
+	private String runStationQuery(String queryRequest, Model model){
 		
 		  StringBuffer queryStr = new StringBuffer();
-			
+		  StringBuffer result = new StringBuffer();
 		  // Establish Prefixes
 		  //Set default Name space first
 		  queryStr.append("PREFIX rdfs" + ": <" + "http://www.w3.org/2000/01/rdf-schema#" + "> ");
@@ -190,7 +187,7 @@ public class TripDao {
 				QuerySolution soln = response.nextSolution();
 				RDFNode stations = soln.get("?stations");
 				if( stations != null){
-					System.out.println(stations.toString());
+					result.append(stations.toString()+"\n");
 					}
 				else{
 					System.err.println("No station found!");	
@@ -200,11 +197,14 @@ public class TripDao {
 		  finally { 
 			  qexec.close();
 			  }
+		  return result.toString();
 		}
-	private void runStationDetailsQuery(String queryRequest, Model model){
+	
+	private Station runStationDetailsQuery(String queryRequest, Model model){
 		
 		  StringBuffer queryStr = new StringBuffer();
-			
+		  Station station = new Station();
+		  
 		  // Establish Prefixes
 		  //Set default Name space first
 		  queryStr.append("PREFIX rdfs" + ": <" + "http://www.w3.org/2000/01/rdf-schema#" + "> ");
@@ -224,8 +224,16 @@ public class TripDao {
 			{
 				QuerySolution soln = response.nextSolution();
 				RDFNode name = soln.get("?name");
+				RDFNode latitude = soln.get("?latitude");
+				RDFNode longitude = soln.get("?longitude");
+				RDFNode filter = soln.get("?filter");
+				RDFNode iconUrl = soln.get("?iconUrl");
 				if( name != null){
-					System.out.println(name.toString());
+					station.setName(name.toString());
+					station.setFilters(filter.toString());
+					station.setLatitude(latitude.toString());
+					station.setLongitude(longitude.toString());
+					station.setIconUrl(iconUrl.toString());
 					}
 				else{
 					System.err.println("No details found!");	
@@ -235,5 +243,6 @@ public class TripDao {
 		  finally { 
 			  qexec.close();
 			  }
+		  return station;
 		}
 }
