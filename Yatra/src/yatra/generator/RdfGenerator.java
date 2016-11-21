@@ -13,10 +13,10 @@ import java.util.ArrayList;
  */
 public class RdfGenerator {
 
-	private static final String FILE_PATH_AUTOMOBILE = "/Users/Mitikaa/Desktop/Fall 2016/Semantic Web/Yatra/YatraCrawler/Output.csv";
-	private static final String FILE_PATH_RDF_AUTOMOBILE =  "/Users/Mitikaa/Desktop/Fall 2016/Semantic Web/Yatra/Yatra/Files/automobile.rdf";
-	private static final String FILE_PATH_GEOLOCATION = "/Users/Mitikaa/Desktop/Fall 2016/Semantic Web/Yatra/Yatra/Files/GeolocationMappings.csv";
-	private static final String FILE_PATH_RDF_GEOLOCATION = "/Users/Mitikaa/Desktop/Fall 2016/Semantic Web/Yatra/Yatra/Files/geolocation.rdf";
+	private static final String FILE_PATH_AUTOMOBILE = "/Users/Mitikaa/git/Yatra/YatraCrawler/Output.csv";
+	private static final String FILE_PATH_RDF_AUTOMOBILE =  "/Users/Mitikaa/git/Yatra/Yatra/Files/automobile.rdf";
+	private static final String FILE_PATH_GEOLOCATION = "/Users/Mitikaa/git/Yatra/Yatra/Files/GeolocationMappings.csv";
+	private static final String FILE_PATH_RDF_GEOLOCATION = "/Users/Mitikaa/git/Yatra/Yatra/Files/geolocation.rdf";
 	
 	public static void main(String[] args){
 		RdfGenerator rdfGenerator = new RdfGenerator();
