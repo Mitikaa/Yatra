@@ -11,6 +11,7 @@ import org.json.*;
 public class ApiClient {
 
 	static String myApiKey = "AIzaSyDcyhQ0CcjBHzvoDvJlMJz96l8EvRzMN2o";
+	static String locationKey = "AIzaSyB2CwW0fMm3ZEUPK1YoLaEK_zQYWWzHCns";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -46,7 +47,6 @@ public class ApiClient {
 				myCoordinates[i] = location; 
 
 			}
-			
 			System.out.println(getNearbyData(myCoordinates));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -58,7 +58,7 @@ public class ApiClient {
 		int sampleSize = 10;
 		JSONArray nearByData = new JSONArray();
 
-		for (int i = 0; i < myCoordinates.length; i++) {
+		for (int i = 5; i < myCoordinates.length; i++) {
 			String path = "%1$s,%2$s|%3$s,%4$s";
 			JSONObject source = myCoordinates[i];
 
@@ -109,7 +109,7 @@ public class ApiClient {
 		String myNearByPlacesAPI = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%1$s,%2$s&radius=10000&type=&key=%3$s";
 		StringBuilder jsonResults = new StringBuilder();
 		try {
-			URL url = new URL(String.format(myNearByPlacesAPI, location.get("lat"), location.get("lng"), myApiKey));
+			URL url = new URL(String.format(myNearByPlacesAPI, location.get("lat"), location.get("lng"), locationKey));
 			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 			String str;
 
@@ -147,6 +147,9 @@ public class ApiClient {
 
 				if (result.has("types"))
 					localAttraction.put("typesFilter", result.get("types").toString().replace(',', '|'));
+				
+				if (result.has("vicinity"))
+					localAttraction.put("vicinity", result.get("vicinity").toString());
 
 				localAttractionArray.put(i, localAttraction);
 			}
