@@ -7,7 +7,9 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 
+import yatra.dao.AutomobileDao;
 import yatra.dao.TripDao;
+import yatra.model.Automobile;
 import yatra.model.Station;
 
 /**
@@ -16,20 +18,27 @@ import yatra.model.Station;
  */
 public class CommonController {
 	public static String TRIP_RDF = "/Users/Mitikaa/git/Yatra/Yatra/Files/LocationRDF.rdf";
+	public static String AUTOMOBILE_RDF = "/Users/Mitikaa/git/Yatra/Yatra/Files/automobile.rdf";
 	static String defaultNameSpace = "http://www.semanticweb.org/ontologies/2016/12/Yatra#";
 	Model _trips = null;
+	Model _automobiles = null;
 	static TripDao tripDao = new TripDao();
+	static AutomobileDao automobileDao = new AutomobileDao();
 	
 	public static void main(String[] args){
 		CommonController trip = new CommonController();
+		CommonController automobile = new CommonController();
+		
+		trip.populateTrips(TRIP_RDF);
+		automobile.populateAutomobile(AUTOMOBILE_RDF);
+		
 		//for sparql
 		String source = "Los Angeles; California";
 		String destination = "Chicago; Illinois";
 		
-		trip.populateTrips();
+		//filters 
 		//System.out.println("Filters:");
 		//tripDao.getFilters(trip._trips);
-		
 		
 		System.out.println("Terminals:");
 		String resultTerminal = tripDao.getTerminalURIs(trip._trips, source, destination);
@@ -60,12 +69,29 @@ public class CommonController {
 				System.out.println(resultStationDetails.toString());
 			}
 		}
+		
+		//checking for automobile
+		System.out.println("Automobiel:");
+		String make = "2013 Buick Regal";
+		Automobile resultAutomobile = automobileDao.getAutomobile(automobile._automobiles, make);
+		System.out.println(resultAutomobile);
 	}
 	
-	private void populateTrips(){
+	private void populateTrips(String filename){
 		_trips = ModelFactory.createOntologyModel();
-		InputStream filterInstance =  FileManager.get().open(TRIP_RDF);
+		InputStream filterInstance =  FileManager.get().open(filename);
 		_trips.read(filterInstance, defaultNameSpace);
+		try {
+			filterInstance.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private void populateAutomobile(String filename){
+		_automobiles = ModelFactory.createOntologyModel();
+		InputStream filterInstance =  FileManager.get().open(filename);
+		_automobiles.read(filterInstance, defaultNameSpace);
 		try {
 			filterInstance.close();
 		} catch (IOException e) {
