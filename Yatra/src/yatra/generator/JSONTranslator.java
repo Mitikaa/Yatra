@@ -11,8 +11,8 @@ import org.json.JSONObject;
 
 public class JSONTranslator {
 
-	private static final String FILE_PATH_AUTOMOBILE = "/Users/Mitikaa/git/Yatra/Yatra/Files/LocationJSONData.txt";
-	private static final String FILE_PATH_RDF_AUTOMOBILE = "/Users/Mitikaa/git/Yatra/Yatra/Files/LocationRDF.rdf";
+	private static final String FILE_PATH_AUTOMOBILE = "E:/Study/Fall2016/SER594/Project/Yatra/Yatra/Files/LocationJSONData.txt";
+	private static final String FILE_PATH_RDF_AUTOMOBILE = "E:/Study/Fall2016/SER594/Project/Yatra/Yatra/Files/LocationRDF.rdf";
 
 	public static void main(String[] args) {
 		JSONTranslator jSONTranslator = new JSONTranslator();
@@ -51,6 +51,7 @@ public class JSONTranslator {
 		Map<String, Integer> isPresent = new HashMap<String, Integer>();
 		StringBuilder rdfString = new StringBuilder();
 		StringBuilder tripBuilder = new StringBuilder();
+		int stationCounter = 0;
 
 		if (tripData.length() > 0) {
 			try {
@@ -142,12 +143,14 @@ public class JSONTranslator {
 
 								tripBuilder
 										.append("		<yatra:hasStation rdf:resource=\"http://www.semanticweb.org/ontologies/2016/12/Yatra#station"
-												+ ((j * 100) + (i * 10) + k) + "\" />\n");
+												+ Integer.toString(stationCounter)
+												//((j * 100) + (i * 10) + k) 
+												+ "\" />\n");
 
-								isPresent.put(stationKey, ((j * 100) + (i * 10) + k));
+								isPresent.put(stationKey, stationCounter);//((j * 100) + (i * 10) + k));
 
 								rdfString.append("		<rdf:Description rdf:about=\"&yatra;station"
-										+ Integer.toString((j * 100) + (i * 10) + k) + "\">\n");
+										+ Integer.toString(stationCounter) + "\">\n");
 								if (station.has("localName"))
 									rdfString.append("		<yatra:hasStationName rdf:datatype=\"&xsd;string\">"
 											+ station.get("localName").toString().replaceAll("&", " and ") + "</yatra:hasStationName>\n");
@@ -179,6 +182,7 @@ public class JSONTranslator {
 
 								rdfString.append("	</rdf:Description>\n");
 							}
+							stationCounter++;
 						}
 					}
 					tripBuilder.append("	</rdf:Description>\n");
