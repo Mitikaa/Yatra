@@ -9,8 +9,8 @@ import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.RDFNode;
 
-import yatra.model.Automobile;
-import yatra.model.Station;
+import yatra.models.Automobile;
+import yatra.models.Station;
 
 /**
  * @author Mitikaa

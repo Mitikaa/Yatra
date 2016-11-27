@@ -9,7 +9,7 @@ import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.RDFNode;
 
-import yatra.model.Person;
+import yatra.models.Person;
 
 public class PersonDao {
 	public Person[] getFriendList(Model model, String location){
