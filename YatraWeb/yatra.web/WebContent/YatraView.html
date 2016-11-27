@@ -9,6 +9,8 @@
 	font-family: 'Roboto', 'sans-serif';
 	line-height: 30px;
 	padding-left: 10px;
+	
+	
 }
 
 #right-panel select, #right-panel input {
@@ -17,16 +19,19 @@
 
 #right-panel select {
 	width: 100%;
+	
 }
 
 #right-panel i {
 	font-size: 12px;
+	
 }
 
 html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	
 }
 
 #map {
@@ -44,6 +49,7 @@ html, body {
 	float: left;
 	text-align: left;
 	padding-top: 0;
+	
 }
 
 #directions-panel {
@@ -54,22 +60,68 @@ html, body {
 </style>
 </head>
 <body>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1315153828529272";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 	<div id="map"></div>
 	<div id="right-panel">
+	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div><br/>
 		<div>
+		
+		
+		
 			<b>Start:</b> <select id="start">
 				<option value="chicago, il">Chicago</option>
 				<option value="Halifax, NS">Halifax, NS</option>
 				<option value="Boston, MA">Boston, MA</option>
 				<option value="New York, NY">New York, NY</option>
 				<option value="Miami, FL">Miami, FL</option>
-			</select> <br> <b>End:</b> <select id="end">
+			</select>
+			 <br> <b>End:</b> <select id="end">
 				<option value="tempe, az">Tempe</option>
 				<option value="Vancouver, BC">Vancouver, BC</option>
 				<option value="Seattle, WA">Seattle, WA</option>
 				<option value="San Francisco, CA">San Francisco, CA</option>
 				<option value="Los Angeles, CA">Los Angeles, CA</option>
-			</select> <br> <input type="submit" id="submit">
+			</select> 
+			
+			<br><b>Vehicle Model :</b> <select id="start">
+				<option value="Dodge Dart">Dodge Dart</option>
+				<option value="GMCCanyon 2WD">GMCCanyon 2WD</option>
+				<option value="FORD Fusion">FORD Fusion</option>
+				<option value="FORD Focus">FORD Focus</option>
+				<option value="Honda Civic">Honda Civic</option>
+				<option value="Honda Elantra">Honda Elantra</option>
+				<option value="KIA Rio">KIA Rio</option>
+				<option value="MINI Cooper S">MINI Cooper S</option>
+				<option value="Toyota Prius">Toyota Prius</option>
+				<option value="Mercedes-Benz GL550 4matic">Mercedes-Benz GL550 4matic</option>
+				<option value="Mitsubishi Lancer">Mitsubishi Lancer</option>
+				
+				
+				
+
+			</select>
+			<input type="submit" id="submit">
+			 
+			
+			
+			
+			
+			
+			
+			
+			
 		</div>
 		<div id="JSONOBJECTDISPLAY"></div>
 		<div id="directions-panel"></div>
@@ -160,5 +212,20 @@ html, body {
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcyhQ0CcjBHzvoDvJlMJz96l8EvRzMN2o&callback=initMap">
 		
 	</script>
+	
+
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1315153828529272',
+        xfbml      : true,
+        version    : 'v2.6'
+      });
+    };
+
+   
+   
+</script>
+
 </body>
 </html>
