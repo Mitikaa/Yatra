@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<!ENTITY yatra "http://www.semanticweb.org/ontologies/2016/12/Yatra#">
+]>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:yatra="http://www.semanticweb.org/ontologies/2016/12/Yatra#">
+	
+	 <rdf:Description rdf:about="&yatra;me">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Pankhi Prasher</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person1">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Rishabh Jain</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New York, New York</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person2">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Harish Malik</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person3">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Abhishek Patil</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Mumbai, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person4">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Nitin Goel</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person5">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Nikhil Tibrewal</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person6">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Krishnakanth Jc</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person7">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Razi Ahmed</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New Delhi, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person8">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Vigneshwer Vaidyanathan</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person9">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Vikash Agrawal</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Mumbai, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person10">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Ojas Deshpande</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Guwahati, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person11">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Mitikaa Sama</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person12">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Harshil Mehta</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Mumbai, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person13">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Vardhang Shah</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Sydney, Australia</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person14">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Nitesh Sanklecha</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Mysore, Karnataka</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person15">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Soyeb Shaikh</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">London, United Kingdom</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person16">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Piyush Gupta</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person17">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Tushar Jain</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Mysore, Karnataka</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person18">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Raghavendra Karthik D</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person19">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Tushar Gupta</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Syracuse, New York</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person20">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Tushar Maroo</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person21">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Mukund Manikarnike</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person22">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Ritika Chadha</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New Delhi, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person23">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Ishan Dikshit</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person24">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Shuchir Inamdar</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New Delhi, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person25">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Syed Zafar Shah</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Hyderabad, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person26">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Puneet Jain</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person27">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Vidur S. Bhatnagar</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Philadelphia, Pennsylvania</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person28">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Nishant Arora</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Toronto, Ontario</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person29">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Rushabh Soni</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Mumbai, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person30">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Bharat Singh</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person31">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Vanraj Vala</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person32">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Sandeep Reddy</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person33">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Mitin Dixit</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person34">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Ankit Bhagat</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New York, New York</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person35">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Abhishek Kadian</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New York, New York</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person36">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Pranjal Vaswani</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person37">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Padmakar Ojha</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Gurgaon, Haryana</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person38">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Ronak Jethwa</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Boston, Massachusetts</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person39">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Mayur Rao</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person40">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Yogesh Pandey</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person41">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Mihir Bhatt</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Tempe, Arizona</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person42">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Anirudh Deshpande</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person43">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Harikrishnan Mulangat</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person44">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Sandesh Shetty</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Thane</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person45">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Sharan Agrawal</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Jersey City, New Jersey</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person46">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Viplov Patney</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Bangalore, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person47">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Madhur J. Bajaj</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Irvine, California</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person48">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Sagar Parekh</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">Ahmedabad, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person49">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Shivam Singh</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New Delhi, India</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+	 <rdf:Description rdf:about="&yatra;person50">
+	 <rdf:type rdf:resource="&yatra;Person"/>
+	 <yatra:hasName rdf:datatype="&xsd;string">Shivam Choudhary</yatra:hasName>
+	 <yatra:hasLocation rdf:datatype="&xsd;string">New York, New York</yatra:hasLocation>
+	 <yatra:isFriendOf rdf:resource="http://www.semanticweb.org/ontologies/2016/12/Yatra#me"/>
+	 </rdf:Description>
+
+</rdf:RDF>
