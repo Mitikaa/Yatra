@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 <meta charset="utf-8">
-<title>Waypoints in directions</title>
+<title>Yatra: Plan a trip</title>
 <style>
 #right-panel {
 	font-family: 'Roboto', 'sans-serif';
@@ -91,11 +91,6 @@ html, body {
 			document.getElementById('submit').addEventListener(
 					'click',
 					function() {
-						/*var jsonObj =''
-						$.get("controller", function(responseJson) {
-						var jsonResult = JSON.stringify(eval("(" + responseJson + ")")); 
-						jsonObj = JSON.parse(jsonResult);
-						  });*/
 						calculateAndDisplayRoute(directionsService,
 								directionsDisplay);
 					});
@@ -103,25 +98,46 @@ html, body {
 
 		function calculateAndDisplayRoute(directionsService, directionsDisplay) {
 			var waypts = [];
+			var start = document.getElementById('start').value;
+			var end = document.getElementById('end').value;
+			var datadString = 'start=' + encodeURIComponent(start) + '&'
+					+ 'end=' + encodeURIComponent(end);
 
-			$.get("controller",
-					function(responseJson) {
-						var jsonResult = JSON.stringify(eval("(" + responseJson
-								+ ")"));
-						jsonObj = JSON.parse(jsonResult);
-						try {
-							$.each(jsonObj, function(i, item) {
-								waypts.push({
-									location : new google.maps.LatLng(
-											item.latitude, item.longitude),
-									stopover : true
-								});
+			$.ajax({
+				type : "POST",
+				url : "controller",
+				data : datadString,
+				dataType : "text",
+
+				//if received a response from the server
+				success : function(data, textStatus, jqXHR) {
+					window.alert(data);
+					var jsonResult = JSON.stringify(eval("(" + data + ")"));
+					var jsonObj = JSON.parse(jsonResult);
+					try {
+						$.each(jsonObj, function(i, item) {
+							waypts.push({
+								location : new google.maps.LatLng(
+										item.latitude, item.longitude),
+								stopover : true
 							});
-						} catch (e) {
-							window.alert(e);
-						}
-						DisplayDirections(directionsService, directionsDisplay, waypts)
-					});
+						});
+					} catch (e) {
+						window.alert(e);
+					}
+					DisplayDirections(directionsService, directionsDisplay,
+							waypts)
+					//$("#error").html("<div><b>success!</b></div>"+data);
+				},
+
+				//If there was no resonse from the server
+				error : function(data, textStatus, errorThrown) {
+					//console.log("Something really bad happened " + textStatus);
+					console.log("Something really bad happened " + data);
+
+					$("#error").html(errorThrown + "\n" + textStatus);
+				}
+			});
 		}
 
 		function DisplayDirections(directionsService, directionsDisplay, waypts) {
@@ -160,5 +176,7 @@ html, body {
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcyhQ0CcjBHzvoDvJlMJz96l8EvRzMN2o&callback=initMap">
 		
 	</script>
+
+	<div id="error"></div>
 </body>
 </html>
