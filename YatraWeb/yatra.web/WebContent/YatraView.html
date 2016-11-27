@@ -50,11 +50,12 @@ html, body {
 	text-align: left;
 	padding-top: 0;
 	
+	
 }
 
 #directions-panel {
 	margin-top: 10px;
-	background-color: #FFEE77;
+	background-color: #A9A9A9;
 	padding: 10px;
 }
 </style>
@@ -81,43 +82,106 @@ html, body {
 		
 		
 			<b>Start:</b> <select id="start">
-				<option value="chicago, il">Chicago</option>
-				<option value="Halifax, NS">Halifax, NS</option>
-				<option value="Boston, MA">Boston, MA</option>
-				<option value="New York, NY">New York, NY</option>
-				<option value="Miami, FL">Miami, FL</option>
+				<option value="Los Angeles; California">Los Angeles, California</option>
+				<option value="Chicago; Illinois">Chicago, Illinois</option>
+				<option value="Houston; Texas">Houston, Texas</option>
+				<option value="Philadelphia; Pennsylvania">Philadelphia, Pennsylvania</option>
+				<option value="Phoenix; Arizona">Phoenix Arizona</option>
+				<option value="San Antonio; Texas">San Antonio, Texas</option>
+				<option value="New York City; New York">New York City, New York</option>
+				<option value="San Diego; California">San Diego, California</option>
+				<option value="Dallas; Texas">Dallas,Texas</option>
+				<option value="San Jose; California">San Jose, California</option>
+				<option value="Austin; Texas">Austin, Texas</option>
 			</select>
 			 <br> <b>End:</b> <select id="end">
-				<option value="tempe, az">Tempe</option>
-				<option value="Vancouver, BC">Vancouver, BC</option>
-				<option value="Seattle, WA">Seattle, WA</option>
-				<option value="San Francisco, CA">San Francisco, CA</option>
-				<option value="Los Angeles, CA">Los Angeles, CA</option>
+				<option value="Los Angeles; California">Los Angeles, California</option>
+				<option value="Chicago; Illinois">Chicago, Illinois</option>
+				<option value="Houston; Texas">Houston, Texas</option>
+				<option value="Philadelphia; Pennsylvania">Philadelphia, Pennsylvania</option>
+				<option value="Phoenix; Arizona">Phoenix Arizona</option>
+				<option value="San Antonio; Texas">San Antonio, Texas</option>
+				<option value="New York City; New York">New York City, New York</option>
+				<option value="San Diego; California">San Diego, California</option>
+				<option value="Dallas; Texas">Dallas,Texas</option>
+				<option value="San Jose; California">San Jose, California</option>
+				<option value="Austin; Texas">Austin, Texas</option>
 			</select> 
 			
-			<br><b>Vehicle Model :</b> <select id="start">
+			
+			<b>Filter</b> <select id="filter">
+				
+				<option value="airport">Airport</option>
+				<option value="atm">ATM</option>
+				<option value="bank">Bank</option>
+				<option value="bar">Bar</option>
+				<option value="campground">Campground</option>
+				<option value="cemetery">Cemetery</option>
+				<option value="convenience_store">Convenience_store</option>
+				<option value="electric">Electric</option>				
+				<option value="establishment">Establishment</option>
+				<option value="fire_station">Fire_station</option>
+				<option value="food">Food</option>
+				<option value="health">Health</option>
+				<option value="insurance">Insurance</option>
+				<option value="library">Library</option>
+				<option value="locality">Locality</option>
+				<option value="lodging">Lodging</option>
+				<option value="political">Political</option>
+				<option value="post_office">Post_office</option>
+				<option value="restaurant">Restaurant</option>
+				<option value="supermarket">Supermarket</option>
+				<option value="travel_agency">Travel_agency</option>
+				<option value="veterinary_care">Veterinary_care</option>
+				<option value="worship">Worship</option>
+				
+				</select><br/>
+				
+			
+			<br><b>Vehicle Model :</b> <select id="model">
+				<option value="Buick Encore">Buick Encore</option>
+				<option value="Buick Lucerne">Buick Lucerne</option>
+				<option value="Acura TSX">Acura TSX</option>
+				<option value="Acura MDX 4WD">Acura MDX 4WD</option>
+				<option value="Chrysler 300">Chrysler 300</option>
 				<option value="Dodge Dart">Dodge Dart</option>
-				<option value="GMCCanyon 2WD">GMCCanyon 2WD</option>
-				<option value="FORD Fusion">FORD Fusion</option>
-				<option value="FORD Focus">FORD Focus</option>
-				<option value="Honda Civic">Honda Civic</option>
-				<option value="Honda Elantra">Honda Elantra</option>
-				<option value="KIA Rio">KIA Rio</option>
-				<option value="MINI Cooper S">MINI Cooper S</option>
-				<option value="Toyota Prius">Toyota Prius</option>
-				<option value="Mercedes-Benz GL550 4matic">Mercedes-Benz GL550 4matic</option>
-				<option value="Mitsubishi Lancer">Mitsubishi Lancer</option>
+				<option value="Dodge Avenger">Dodge Avenger</option>
+				<option value="GMC Terrain AWD">GMC Terrain AWD</option>
+				<option value="Jeep Cherokee FWD">Jeep Cherokee FWD</option>
+				<option value="Jaguar XK">Jaguar XK</option>
+				<option value="Land Rover Range Rover">Land Rover Range Rover</option>
+				<option value="Lexus ES 300h">Lexus ES 300h</option>
+				<option value="Lincoln MKZ FWD">Lincoln MKZ FWD</option>
+				<option value="Mazda 2">Mazda 2</option>
+				<option value="Mercury Milan">Mercury Milan</option>
+				<option value="BMW ActiveHybrid 5">BMW ActiveHybrid 5</option>
+				<option value="Cadillac XTS">Cadillac XTS</option>
+				<option value="BMW ActiveHybrid 5">BMW ActiveHybrid 5</option>			
+				<option value="Chevrolet Sonic">Chevrolet Sonicr</option>		
+				<option value="Saab 9-3 SportCombi">Saab 9-3 SportCombi Lancer</option>
+				<option value="Suzuki Grand Vitara">Suzuki Grand Vitara</option>
+				
+				</select>
+				<b>Make Year :</b> <select id="year">
+				<option value="2005">2005</option>
+				<option value="2005">2006</option>
+				<option value="2007">2007</option>
+				<option value="2008">2008</option>
+				<option value="2009">2009</option>
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				</select><br/>
 				
 				
 				
-
-			</select>
-			<input type="submit" id="submit">
-			 
-			
-			
-			
-			
+				
+			 	<input type="submit" id="submit"><br/>
+			 	<b>Estimate Fuel Cost for Car:</b> <input type="text" name="cost"><br>
 			
 			
 			
